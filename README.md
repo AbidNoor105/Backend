@@ -11,9 +11,7 @@ AI.rabic is designed to help users improve their Arabic language skills by engag
 Follow these steps to get the server up and running on your local machine:
 
 1. make sure node.js is installed at https://nodejs.org/en/download/package-manager
-2. open the folder named "Server" in your command prompt
-3. run ```node server.js ```
-4. replace the key.json with this:
+2. replace the key.json with this:
 ```
 {
   "type": "service_account",
@@ -29,7 +27,8 @@ Follow these steps to get the server up and running on your local machine:
   "universe_domain": "googleapis.com"
 }
 ```
-
+3. open the main folder in your command prompt
+4. run ```node server.js ```
 5. The server should be running locally now, to test if the server is running open the front-end code locally and confirm whether API calls can be made.
 
 Jazakumullah
